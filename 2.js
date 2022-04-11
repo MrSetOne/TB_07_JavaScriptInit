@@ -2,11 +2,11 @@
 const arrayVacio = [];
 
 // Crear variable de nombre arrayNumeros declarada con un array de números del 0 al 9 (0, 1, 2...)
-let arrayNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const arrayNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log(`La variable arrayNumeros tiene los valores ${arrayNumeros}`);
 
 // Crear variable de nombre arrayNumeros2 declarada con un array de números del 0 al 15 (0, 1, 2...)
-let arrayNumeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+const arrayNumeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 console.log(`La variable arrayNumeros2 tiene los valores ${arrayNumeros2}`);
 
 // Crear variable de nombre arrayNumerosPares declarada con un array con los números pares del 0 al 9 (considerando al 0 par)
