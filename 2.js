@@ -41,11 +41,28 @@ loGuardoTodo.push("aguacate");
 console.log(`El elemento que guardamos nuevo es ${loGuardoTodo[5]}, el array completo seria: ${loGuardoTodo}`);
 
 // Ordena de mayor a menor la variable arrayNumeros y muestrala por consola
-arrayNumeros = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+arrayNumeros.sort((a, b) => {
+    if (a > b) {
+        return -1
+    }
+    if (a < b) {
+        return 1
+    }
+    return 0
+});
+
 console.log(`La variable arrayNumeros ahora tiene los valores ${arrayNumeros}`);
 
 // Ordena de menor a mayor la variable arrayNumeros2 y muestrala por consola
-arrayNumeros2 = [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+arrayNumeros.sort((a, b) => {
+    if (a < b) {
+        return -1
+    }
+    if (a > b) {
+        return 1
+    }
+    return 0
+});
 console.log(`La variable arrayNumeros2 ahora tiene los valores ${arrayNumeros2}`);
 
 // Muestra por consola la propiedad ‘que’ de la variable loGuardoTodo
