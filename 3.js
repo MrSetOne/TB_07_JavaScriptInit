@@ -69,9 +69,12 @@ console.log(Concierto.grupos);
 
 // Crea un objeto de nombre Led, con las propiedades: rojo, verde y azul, obtén el valor de las propiedades guardándolo en la variable array RGB[Rojo, Verde, Azul] y muestra este array por consola
 const Led = {
-    RGB: ["red", "green", "blue"],
+    rojo: 2,
+    verde: 4,
+    azul: 5,
 };
-console.log(Led.RGB);
+const RGB = [Led.azul, Led.verde, Led.azul]
+console.log(RGB);
 
 // Crea un objeto de nombre O_Error con la propiedad código, obtén el valor de la propiedad y muestrala por consola
 const O_Error = {

@@ -40,6 +40,14 @@ console.log(`La longitud del array “loGuardoTodo” es: ${loGuardoTodo.length}
 loGuardoTodo.push("aguacate");
 console.log(`El elemento que guardamos nuevo es ${loGuardoTodo[5]}, el array completo seria: ${loGuardoTodo}`);
 
+
+
+
+
+
+
+
+// ESTEEEEEEEE!!!!!!
 // Ordena de mayor a menor la variable arrayNumeros y muestrala por consola
 arrayNumeros.sort((a, b) => {
     if (a > b) {
@@ -50,8 +58,15 @@ arrayNumeros.sort((a, b) => {
     }
     return 0
 });
-
 console.log(`La variable arrayNumeros ahora tiene los valores ${arrayNumeros}`);
+// tambien se puede usar el .revers
+// .sort se puede abreviar tambien así console.log(array.sort((a,b)=>a-b)); (Menor a Mayor)
+
+
+
+
+
+
 
 // Ordena de menor a mayor la variable arrayNumeros2 y muestrala por consola
 arrayNumeros.sort((a, b) => {

@@ -47,13 +47,27 @@ console.log("Seré un crack en JavaScript al terminar el bootcamp".toUpperCase()
 // Muestra por consola solo los primeros 5 caracteres de la siguiente variable = ‘Hola soy un crack”
 console.log("Hola soy un crack".substring(0, 4));
 
+
+
+
+// ESTEEEEE!!!!!
 // Convierte la variable miNumeroFav en una string y luego muestra por consola el tipo de dato que es dicha variable
-miNumeroFav = "7";
+miNumeroFav = "7"; //Esto tambien se puede hacer con .toSring() y es mas clean
 console.log(`La variable miNumeroFav ha sido cambiada a ${typeof(miNumeroFav)}`);
+
+
+
+
 
 // Crea una variable, concaténala utilizando template literal, guarda el template literal en otra variable y sacala por consola.
 const fraseConcatenada = `Yo, ${miNombre}, me he rallado mil con este enunciado`;
 console.log(fraseConcatenada);
 
+
+
+
+
+
+// ESTEEEEEEE!!!!!!!!!
 // Muestra por consola la variable PI hasta los 2 primeros decimales
-console.log(PI)
+console.log(PI) // Esto tambien se puede hacer con .toFixed
